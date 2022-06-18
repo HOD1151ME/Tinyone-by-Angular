@@ -1,0 +1,72 @@
+.footer{
+    padding:95px 0 135px;
+    background-color: #010101;
+}
+.footer .tiny-feature{
+    margin-bottom:130px;
+}
+.footer .tiny-feature h2{
+    color:#fcdb00;
+    font-weight: 700;
+}
+.footer .tiny-feature p{
+    color:#898989;
+    margin-bottom:45px;
+}
+.contactForm{
+    margin-bottom: 70px;
+}
+
+.submit{
+    background-color: #fcdb00;
+    border:1px solid #fcdb00;
+    text-transform: uppercase;
+    color:#010101;
+    
+}
+.submit:hover{
+    color: #fcdb00;
+    background-color:#000;
+    box-shadow: 0px 0px 10px 5px rgba(239, 237, 241, 0.5);
+}
+.socialLinks li{
+    display:inline-block;
+    margin-right: 30px;
+}
+.socialLinks li i{
+    font-size: 42px;
+    color:#fcdb00;
+}
+.footerLinks li, .footerLinks li a{
+    color:#fff;
+    font-size: 16px;
+    list-style:none;
+}
+
+// @media all and (max-width:768px){
+//     .inspire{
+//         padding-top:0;
+//     }
+//     .ipadImg{
+//         margin:40px 0 0 0;
+//     }
+//     .tiny-feature{
+//         margin-bottom:40px !important;
+//         padding:0 5px;
+//     }
+//     .socialLinks li{
+//         margin-right:20px;
+//     }
+//     .footer .heading-sec{
+//         margin-bottom:25px;
+//     }
+//     .contactForm{
+//         margin-bottom:40px;
+//     }
+//     .header .navbar-default .navbar-toggle{
+//         background-color: #fcdb00!important;
+//     }
+//     .header .navbar-default .navbar-toggle .icon-bar{
+//         background-color: #fff !important;
+//     }
+// }

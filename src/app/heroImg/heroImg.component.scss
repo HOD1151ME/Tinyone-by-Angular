@@ -1,0 +1,74 @@
+*{
+    // padding:0;
+    // margin:0;
+    line-height: 1.5;
+}
+
+/* ==============helper class==================== */
+.w-100{
+    width:100%;
+}
+ul{list-style: none;
+}
+a:link, a:visited{
+    text-decoration: none;
+}
+/* ================================================= */
+.header{
+    background-color:#fcdb00;
+    padding:60px 0 105px;
+}
+.header .navbar-default {
+    background: none;
+    border : none;
+    box-shadow : none;
+    margin-bottom: 70px;
+}
+.header .navbar-right li{
+    margin-left:45px;
+}
+.header .navbar-right a{
+    color:#010101 !important;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.header a.navbar-brand{
+    padding:0;
+}
+.ipadImg{
+    margin-left:12%;
+}
+.inspire{
+    padding-top:75px;
+}
+.heading-pri{
+    text-transform: capitalize;
+    font-size: 32px;
+    color:#010101;
+    margin:0 0 25px;
+    font-weight: 700;
+}
+.heading-sec{
+    font-size: 20px;
+    color:#313841;
+    margin-bottom: 25px;
+}
+.para{
+    font-size: 16px;
+    color:#555;
+    margin-bottom:40px;
+}
+.links{
+    list-style: none;
+}
+.links li{
+    display:inline-block;
+    margin-right:35px;
+}
+.links i{
+    font-size: 42px;
+    color:#010101;
+}
+ul{text-decoration: none;
+}
+

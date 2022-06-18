@@ -1,0 +1,35 @@
+@media all and (max-width:768px){
+    .inspire{
+        padding-top:0;
+    }
+    .ipadImg{
+        margin:40px 0 0 0;
+    }
+    .tiny-feature{
+        margin-bottom:40px !important;
+        padding:0 5px;
+    }
+    .socialLinks li{
+        margin-right:20px;
+    }
+    .footer .heading-sec{
+        margin-bottom:25px;
+    }
+    .contactForm{
+        margin-bottom:40px;
+    }
+    .header .navbar-default .navbar-toggle{
+        background-color: #fcdb00!important;
+    }
+    .header .navbar-default .navbar-toggle .icon-bar{
+        background-color: #fff !important;
+    }
+}
+@media all and (max-width:425px){
+    .ipadImg{
+        margin:0 auto;
+    }
+    .socialLinks li{
+        margin-left:50px;
+    }
+}

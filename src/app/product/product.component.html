@@ -1,0 +1,20 @@
+<!--1.  </p> here is data binding by string interpolation -->
+<!-- <p>This is {{productName}} Product with ID:{{productID}}</p> -->
+<p>This is {{productName}} Product with ID:{{getProductID()}}</p>
+
+
+<!--2.  </p> here is data binding by property binding -->
+<!-- <span [innerText]="productName"></span> -->
+<span [innerHTML]="productName"></span>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-8 col-offest-sm-2">
+            <input type="text" [value]="'Apple'" class="form-control">
+        </div>
+    </div>
+</div>
+<!-- <button class="btn btn-primary" [disabled]="isDisabled">Add Product</button>  as a disabled behaviour-->
+<button class="btn btn-primary" [disabled]="isDisabled" (click)="addedMsg()">Add Product</button> <!--as a enabled behaviour-->
+<!-- <button class="btn btn-primary" [attr.disabled]="isDisabled">Add Product</button> if this is attribute -->
+<p>{{productStatus}}</p>
